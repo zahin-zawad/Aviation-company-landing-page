@@ -29,7 +29,8 @@ export default function Header() {
       {/* upper blue bar ends */}
 
       {/* navbar starts here */}
-      <div className="w-full h-20 shadow-md px-[72px] flex gap-20">
+      <div className="flex justify-between w-full h-20 shadow-md px-[72px]">
+      <div className=" flex gap-20">
         <Image src={logo} alt="logo" className="my-auto"/>
 
         <ul className="flex gap-6 my-auto">
@@ -40,12 +41,12 @@ export default function Header() {
           <li>Blog</li>
         </ul>
         <input type="text"  placeholder="Search Products" className="w-96 h-auto my-4"/>
-
-        <div className="flex gap-6">
+      </div>
+      <div className="flex gap-6">
           <Image src={cart} alt="cart"/>
           <Image src={user} alt="user"/>
         </div>
-      </div>
+        </div>
     </div>
   );
 }
