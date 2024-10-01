@@ -51,8 +51,9 @@ export default function HeroSection() {
             </li>
         </ul>
       </div>
-      <div className="right">
+      <div className="right flex gap-3">
         <Image src={HeroImage} alt="HeroImage" />
+        <Image src={rightChevron} alt="rightCheveron"/>
       </div>
     </div>
   );
