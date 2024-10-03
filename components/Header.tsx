@@ -40,7 +40,7 @@ export default function Header() {
           <li>About Us</li>
           <li>Blog</li>
         </ul>
-        <input type="text"  placeholder="Search Products" className="w-96 h-auto my-4 border-2 pl-6"/>
+        <input type="text"  placeholder="Search Products" className="w-96 h-auto my-4 border-2 pl-6 rounded-md"/>
       </div>
       <div className="flex gap-6">
           <Image src={cart} alt="cart"/>

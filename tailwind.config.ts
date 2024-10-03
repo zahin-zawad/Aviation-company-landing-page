@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#0363CA",
-        foreground: "var(--foreground)",
+        'black-rgba': "rgba(0, 0, 0, 0.05)",
       },
     },
   },

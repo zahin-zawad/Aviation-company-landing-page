@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PartsFinder() {
   return (
-    <div className='bg-[#2637460D] px-6 py-12 mx-[72px] my-6'>
+    <div className='bg-[#2637460D] px-6 py-12 mx-[72px] my-6 rounded-md'>
         <h2 className='text-center text-2xl'>Parts Finder</h2>
         <div className='flex justify-center mt-6'>
             <label htmlFor="partName">I’m Looking for </label>
