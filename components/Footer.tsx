@@ -65,7 +65,7 @@ export default function Footer() {
             <Image src={visa} alt="visa"/>
             <Image src={payoneer} alt="payoneer"/>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 mt-2">
             <Image src={americanExpress} alt="americanExpress"/>
             <Image src={paypal} alt="paypal"/>
           </div>
