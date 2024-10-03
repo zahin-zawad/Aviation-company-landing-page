@@ -1,6 +1,7 @@
 import AboutUs from '@/components/AboutUs'
 import Blog from '@/components/Blog'
 import Categories from '@/components/Categories'
+import ComantSection from '@/components/ComantSection'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import HeroSection from '@/components/HeroSection'
@@ -16,6 +17,7 @@ export default function HomePage() {
       <PartsFinder/>
       <Categories/>
       <AboutUs/>
+      <ComantSection/>
       <Blog/>
       <Newsletter/>
       <Footer/>
