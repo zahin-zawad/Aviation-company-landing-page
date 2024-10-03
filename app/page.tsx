@@ -1,5 +1,6 @@
 import AboutUs from '@/components/AboutUs'
 import Categories from '@/components/Categories'
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import HeroSection from '@/components/HeroSection'
 import Newsletter from '@/components/Newsletter'
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Categories/>
       <AboutUs/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }
