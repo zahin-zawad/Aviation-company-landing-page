@@ -1,3 +1,4 @@
+import { title } from "process";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        title: ["Exo", "sans-serif"],
+      },
       colors: {
         primary: "#0363CA",
         'black-rgba': "rgba(0, 0, 0, 0.05)",
