@@ -6,7 +6,7 @@ import propeller from '@/public/images/AboutUsImages/3.png'
 
 export default function AboutUs() {
   return (
-    <div className='my-12 w-full h-[527px] flex'>
+    <div className='my-12 w-full h-[527px] lg:flex'>
         <div className="left w-2/4">
             <h2 className='mt-32 ml-48 text-[#0487E2] font-semibold text-2xl'>About Us</h2>
             <h2 className='ml-48 mt-3 text-4xl font-semibold'>LEADERS IN THE <br />
