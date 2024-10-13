@@ -7,7 +7,7 @@ import downChevron from "@/public/images/HeroSectionImages/DownChevron.svg";
 
 export default function HeroSection() {
   return (
-    <div className="mt-6 flex gap-6 mx-[72px]">
+    <div className="mt-6 flex gap-6 mx-16">
       <div>
         <div className="left w-80 h-12 bg-[#0487E2] flex text-white p-3 rounded-t-md">
           <Image src={bulletedList} alt="bulletedList" />
