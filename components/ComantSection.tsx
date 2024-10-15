@@ -5,9 +5,9 @@ import superiorImage from '@/public/images/ComantSectionImages/image(2).png'
 
 export default function ComantSection() {
   return (
-    <div className='flex gap-6 justify-center py-12 px-[72px]'>
-        <Image src={comantImage} alt=''/>
-        <Image src={superiorImage} alt=''/>
+    <div className='lg:flex gap-6 justify-center py-12 px-16'>
+        <Image src={comantImage} alt='comantImage'/>
+        <Image src={superiorImage} alt='superiorImage'/>
     </div>
   )
 }

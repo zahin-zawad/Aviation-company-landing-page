@@ -9,7 +9,6 @@ import downChevron from "@/public/images/HeroSectionImages/DownChevron.svg";
 
 import {
    CloseOutlined,
-    MenuOutlined,
  } from '@ant-design/icons';
  import { Drawer } from "antd";
  import Link from "next/link";

@@ -12,8 +12,8 @@ import paypal from "@/public/images/FooterImages/PayPal.png";
 
 export default function Footer() {
   return (
-    <div className="bg-[#e6f3fc] h-[430px]">
-      <div className="mx-[72px] flex">
+    <div className="bg-[#e6f3fc]">
+      <div className="mx-16 lg:flex justify-between pt-20">
         <div className="mt-12">
           <Image src={logo} alt="logo" />
 
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-[82px] ml-[121px]">
+        <div className="">
           <h3 className="text-lg font-bold mb-6">Menus</h3>
           <h3 className="mb-3 text-[#6C6F70]">Home</h3>
           <h3 className="mb-3 text-[#6C6F70]">Shop</h3>
@@ -38,7 +38,7 @@ export default function Footer() {
           <h3 className="mb-3 text-[#6C6F70]">About Us</h3>
           <h3 className="mb-3 text-[#6C6F70]">Blog</h3>
         </div>
-        <div className="mt-[82px] ml-[164px]">
+        <div className="">
           <h3 className="text-lg font-bold mb-6">Contact</h3>
           <h3 className="text-[#0487E2] font-bold text-sm">Call</h3>
           <h3 className="mb-3 text-[#6C6F70]">+01865525562</h3>
@@ -50,7 +50,7 @@ export default function Footer() {
           </h3>
         </div>
 
-        <div className="mt-[82px] ml-10">
+        <div className="">
           <h3 className="text-lg font-bold mb-6">Policy</h3>
           <h3 className="mb-3 text-[#6C6F70]">Terms & Conditions</h3>
           <h3 className="mb-3 text-[#6C6F70]">Information Policy</h3>
@@ -59,7 +59,7 @@ export default function Footer() {
           <h3 className="mb-3 text-[#6C6F70]">Payment</h3>
         </div>
 
-        <div className="mt-[82px] ml-20">
+        <div className="">
           <h3 className="text-lg font-bold mb-6">Payment</h3>
           <div className="flex gap-4">
             <Image src={masterCard} alt="masterCard" />
