@@ -27,8 +27,7 @@ export default function AircraftSupplies() {
             <h4 className="p-3 font-semibold text-sm">Tools & Materials</h4>
           </div>
         </div>
-        <div className="products grid lg:grid-cols-4 grid-cols-2 gap-5">
-          <FeaturedProductCard/>
+        <div className="products grid lg:grid-cols-3 grid-cols-2 gap-5">
           <FeaturedProductCard/>
           <FeaturedProductCard/>
           <FeaturedProductCard/>
