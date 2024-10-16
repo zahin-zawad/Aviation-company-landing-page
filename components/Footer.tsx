@@ -13,11 +13,11 @@ import paypal from "@/public/images/FooterImages/PayPal.png";
 export default function Footer() {
   return (
     <div className="bg-[#e6f3fc]">
-      <div className="mx-16 lg:flex justify-between pt-20">
-        <div className="mt-12">
+      <div className="px-4 lg:mx-16 lg:flex grid grid-cols-2 gap-10 justify-between pt-20">
+        <div className="">
           <Image src={logo} alt="logo" />
 
-          <h3 className="w-80 my-12">
+          <h3 className="w-40 lg:w-80 my-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
             vestibulum enim dignissim placerat egestas est in aliquet. Ut id sed
             augue sapien mus at purus id faucibus.

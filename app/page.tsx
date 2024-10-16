@@ -12,6 +12,9 @@ import PartsFinder from '@/components/PartsFinder'
 
 import React from 'react'
 import { Button } from 'antd';
+import TrustedBySection from '@/components/TrustedBySection'
+import AircraftSupplies from '@/components/AircraftSupplies'
+import PopularProducts from '@/components/PopularProducts'
 
 export default function HomePage() {
   return (
@@ -22,8 +25,11 @@ export default function HomePage() {
       <Categories/>
       <AboutUs/>
       <FeaturedProducts/>
-      <ExcluliveParts/>
+      {/* <ExcluliveParts/> */}
+      {/* <TrustedBySection/> */}
+      <AircraftSupplies/>
       <ComantSection/>
+      <PopularProducts/>
       <Blog/>
       <Newsletter/>
       <Footer/>

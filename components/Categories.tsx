@@ -13,7 +13,7 @@ export default function Categories() {
         <div className='flex justify-center'>
             <h2 className='text-2xl text-primary font-semibold'>Categories</h2>
         </div>
-        <div className='flex gap-6 mt-9 mx-[72px] pb-16'>
+        <div className='grid grid-cols-2 lg:flex gap-6 mt-9 lg:mx-16 pb-16'>
             <CategoryCard/>
             <CategoryCard/>
             <CategoryCard/>

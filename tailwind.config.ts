@@ -9,12 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily:{
+      backgroundImage: {
+        aircraftSuppliesCoverphoto:
+          "url('../public/images/AircraftSuppliesImages/planecoverphoto.png')",
+      },
+      fontFamily: {
         title: ["Exo", "sans-serif"],
       },
       colors: {
         primary: "#0363CA",
-        'black-rgba': "rgba(0, 0, 0, 0.05)",
+        "black-rgba": "rgba(0, 0, 0, 0.05)",
       },
     },
   },
