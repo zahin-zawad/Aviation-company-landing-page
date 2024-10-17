@@ -50,11 +50,11 @@ export default function Header() {
           <Image src={logo} alt="logo" className="my-auto" />
 
           <ul className="lg:flex gap-6 my-auto hidden">
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Product</li>
-            <li>About Us</li>
-            <li>Blog</li>
+              <Link href={'/'}>Home</Link>
+							<Link href={'/shop'}>Shop</Link>
+							<Link href={'/product-page'}>Products</Link>
+							<Link href={'/about-us'}>About Us</Link>
+							<Link href={'/contact'}>Blog</Link>
           </ul>
           <div className="w-96 h-auto my-4 border-2 pl-6 rounded-md lg:flex hidden relative items-center">
             <input type="text" placeholder="Search Products" />
