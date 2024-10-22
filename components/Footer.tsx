@@ -9,15 +9,16 @@ import visa from "@/public/images/FooterImages/VisaCard.png";
 import payoneer from "@/public/images/FooterImages/payoneer.png";
 import americanExpress from "@/public/images/FooterImages/amrticanExpress.png";
 import paypal from "@/public/images/FooterImages/PayPal.png";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className="bg-[#e6f3fc]">
-      <div className="px-4 lg:mx-16 lg:flex grid grid-cols-2 gap-10 justify-between pt-20">
+      <div className="px-4 lg:mx-16 lg:flex  gap-10 justify-between pt-20">
         <div className="">
-          <Image src={logo} alt="logo" />
+        <Link href={'/'}><Image src={logo} alt="logo" /></Link>
 
-          <h3 className="w-40 lg:w-80 my-12">
+          <h3 className="lg:w-80 w-full my-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
             vestibulum enim dignissim placerat egestas est in aliquet. Ut id sed
             augue sapien mus at purus id faucibus.
@@ -30,37 +31,39 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="">
-          <h3 className="text-lg font-bold mb-6">Menus</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Home</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Shop</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Products</h3>
-          <h3 className="mb-3 text-[#6C6F70]">About Us</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Blog</h3>
+        
+        <div className=" flex flex-col">
+          <p className="text-lg font-bold mb-6">Menus</p>
+          <Link href={'/'} className="mb-3 text-[#6C6F70]">Home</Link>
+          <Link href={'/shop'} className="mb-3 text-[#6C6F70]">Shop</Link>
+          <Link href={'/product-page'} className="mb-3 text-[#6C6F70]">Products</Link>
+          <Link href={'/about-us'} className="mb-3 text-[#6C6F70]">About Us</Link>
+          <Link href={'/blog'} className="mb-3 text-[#6C6F70]">Blog</Link>
+
         </div>
         <div className="">
-          <h3 className="text-lg font-bold mb-6">Contact</h3>
-          <h3 className="text-[#0487E2] font-bold text-sm">Call</h3>
-          <h3 className="mb-3 text-[#6C6F70]">+01865525562</h3>
-          <h3 className="text-[#0487E2] font-bold text-sm">Email</h3>
-          <h3 className="mb-3 text-[#6C6F70]">info@skygears.com</h3>
-          <h3 className="text-[#0487E2] font-bold text-sm">Address</h3>
-          <h3 className="mb-3 text-[#6C6F70] w-[180px]">
+          <p className="text-lg font-bold mb-6">Contact</p>
+          <p className="text-[#0487E2] font-bold text-sm">Call</p>
+          <p className="mb-3 text-[#6C6F70]">+01865525562</p>
+          <p className="text-[#0487E2] font-bold text-sm">Email</p>
+          <p className="mb-3 text-[#6C6F70]">info@skygears.com</p>
+          <p className="text-[#0487E2] font-bold text-sm">Address</p>
+          <p className="mb-3 text-[#6C6F70] w-[180px]">
             Street 3-11A, North Road, Dhaka-1200
-          </h3>
+          </p>
         </div>
 
         <div className="">
-          <h3 className="text-lg font-bold mb-6">Policy</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Terms & Conditions</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Information Policy</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Refund Policy</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Privacy & Policy</h3>
-          <h3 className="mb-3 text-[#6C6F70]">Payment</h3>
+          <p className="text-lg font-bold mb-6">Policy</p>
+          <p className="mb-3 text-[#6C6F70]">Terms & Conditions</p>
+          <p className="mb-3 text-[#6C6F70]">Information Policy</p>
+          <p className="mb-3 text-[#6C6F70]">Refund Policy</p>
+          <p className="mb-3 text-[#6C6F70]">Privacy & Policy</p>
+          <p className="mb-3 text-[#6C6F70]">Payment</p>
         </div>
 
         <div className="">
-          <h3 className="text-lg font-bold mb-6">Payment</h3>
+          <p className="text-lg font-bold mb-6">Payment</p>
           <div className="flex gap-4">
             <Image src={masterCard} alt="masterCard" />
             <Image src={visa} alt="visa" />
@@ -71,6 +74,7 @@ export default function Footer() {
             <Image src={paypal} alt="paypal" />
           </div>
         </div>
+        
       </div>
 
       <h2 className="mt-8 text-[#6C6F70] text-base flex justify-center">

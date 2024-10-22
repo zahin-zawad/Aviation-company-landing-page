@@ -8,13 +8,13 @@ export default function AircraftSupplies() {
   return (
     <div>
       <div className="bg-cover bg-aircraftSuppliesCoverphoto">
-        <h3 className="text-4xl font-semibold">Aircraft Supplies</h3>
-        <button>View All</button>
+        <h3 className="text-4xl font-semibold mt-[72px] ml-[182px]">Aircraft Supplies</h3>
+        <button className="mt-[18px] ml-[182px]">View All</button>
       </div>
 
       <div className="lg:flex bg-[#f4f5f6]">
-        <div className="sidebar">
-          <h3 className="font-semibold text-2xl text-center lg:text-left">Aircraft Supplies</h3>
+        <div className="sidebar ml-16">
+          <h3 className="font-semibold text-2xl text-center lg:text-left mb-6 mt-12">Aircraft Supplies</h3>
 
           <div className="w-56 mt-6 hidden lg:block">
             <h4 className="font-semibold text-sm bg-[#0487E2] text-white rounded p-3">
@@ -27,7 +27,8 @@ export default function AircraftSupplies() {
             <h4 className="p-3 font-semibold text-sm">Tools & Materials</h4>
           </div>
         </div>
-        <div className="products grid lg:grid-cols-3 grid-cols-2 gap-5">
+        <div className="products grid lg:grid-cols-4 mb-14 grid-cols-2 gap-5 mx-3 ml-9 mt-12">
+          <FeaturedProductCard/>
           <FeaturedProductCard/>
           <FeaturedProductCard/>
           <FeaturedProductCard/>

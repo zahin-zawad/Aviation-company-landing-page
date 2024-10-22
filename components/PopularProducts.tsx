@@ -16,7 +16,7 @@ export default function PopularProducts() {
           <Image src={RightCheveron} alt="RightCheveron" />
         </div>
       </div>
-      <div className="grid grid-cols-2 lg:flex gap-6 ml-8 mt-9 lg:ml-16">
+      <div className="grid grid-cols-2 lg:flex gap-6 ml-8 mr-8 mt-9 lg:ml-16">
         <FeaturedProductCard/>
         <FeaturedProductCard/>
         <FeaturedProductCard/>

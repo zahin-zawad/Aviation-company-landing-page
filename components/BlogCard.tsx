@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function BlogCard() {
   return (
-    <div className="w-[416px] h-[315px] shadow-lg rounded-lg flex flex-col items-center justify-center">
+    <div className="shadow-lg rounded-lg flex flex-col items-center justify-center p-3">
       <Image src={blogImage} alt="blogImage" />
       <h2 className="text-lg font-semibold mt-6">
         Factors to consider when buying aircraft parts

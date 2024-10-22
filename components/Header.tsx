@@ -46,18 +46,18 @@ export default function Header() {
         <div className="lg:hidden flex" onClick={() => setOpen(true)}>
           <MenuOutlined />
         </div>
-        <div className=" flex gap-20">
-          <Image src={logo} alt="logo" className="my-auto" />
+        <div className=" flex gap-20 items-center">
+          <Link href={'/'}><Image src={logo} alt="logo" className="my-auto" /></Link>
 
           <ul className="lg:flex gap-6 my-auto hidden">
               <Link href={'/'}>Home</Link>
 							<Link href={'/shop'}>Shop</Link>
 							<Link href={'/product-page'}>Products</Link>
 							<Link href={'/about-us'}>About Us</Link>
-							<Link href={'/contact'}>Blog</Link>
+							<Link href={'/blog'}>Blog</Link>
           </ul>
-          <div className="w-96 h-auto my-4 border-2 pl-6 rounded-md lg:flex hidden relative items-center">
-            <input type="text" placeholder="Search Products" />
+          <div className="w-96 h-12 my-4 border-2 pl-6 rounded-md lg:flex hidden relative items-center">
+            <input type="text" placeholder="Search Products" className="focus:border-transparent outline-none" />
             <button className="bg-[#0487E2] absolute right-0 p-3 rounded-r-md">
               <Image height={24} width={24} src={search} alt="search" />
             </button>
