@@ -3,13 +3,14 @@ import React from "react";
 
 import planecoverimage from "@/public/images/AircraftSuppliesImages/planecoverphoto.png";
 import FeaturedProductCard from "./FeaturedProductCard";
+import rightCheveron from "@/public/images/AircraftSuppliesImages/Right Chevron(1).svg"
 
 export default function AircraftSupplies() {
   return (
     <div>
-      <div className="bg-cover bg-aircraftSuppliesCoverphoto">
-        <h3 className="text-4xl font-semibold mt-[72px] ml-[182px]">Aircraft Supplies</h3>
-        <button className="mt-[18px] ml-[182px]">View All</button>
+      <div className="bg-cover h-[232px] relative" style={{backgroundImage: `url(${planecoverimage.src})`}} >
+        <h3 className="text-4xl font-semibold text-white absolute mt-16 ml-44">Aircraft Supplies</h3>
+        <button className="text-white p-1.5 pl-3 bg-[#0487E2] rounded flex gap-1.5 items-center absolute ml-44 mt-32">View All <Image src={rightCheveron} alt="rightCheveron"/></button>
       </div>
 
       <div className="lg:flex bg-[#f4f5f6]">
