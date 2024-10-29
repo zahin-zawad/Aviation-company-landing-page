@@ -10,7 +10,7 @@ export default function Products() {
           All “240” products are listed below.
         </p>
       </div>
-      <div className="right ml-6 mt-16 mr-16">
+      <div className="right ml-6 mt-16 mr-16 mb-6">
         <div className="flex gap-6">
           <div className="show flex gap-3 items-center">
             <p className="text-base">Show:</p>
@@ -29,7 +29,7 @@ export default function Products() {
         
       </div>
     </div>
-    <div className="products grid grid-cols-4 gap-6 mx-6">
+    <div className="products grid grid-cols-2 lg:grid-cols-4 gap-6 mx-6">
             <FeaturedProductCard/>
             <FeaturedProductCard/>
             <FeaturedProductCard/>

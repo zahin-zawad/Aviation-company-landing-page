@@ -21,11 +21,11 @@ export default function AircraftSupplies() {
             <h4 className="font-semibold text-sm bg-[#0487E2] text-white rounded p-3">
               Accessories
             </h4>
-            <h4 className="p-3 font-semibold text-sm">Cleaning & Polishing</h4>
-            <h4 className="p-3 font-semibold text-sm">Covers</h4>
-            <h4 className="p-3 font-semibold text-sm">Engine</h4>
-            <h4 className="p-3 font-semibold text-sm">Pitot Probe</h4>
-            <h4 className="p-3 font-semibold text-sm">Tools & Materials</h4>
+            <h4 className="p-3 font-normal text-sm">Cleaning & Polishing</h4>
+            <h4 className="p-3 font-normal text-sm">Covers</h4>
+            <h4 className="p-3 font-normal text-sm">Engine</h4>
+            <h4 className="p-3 font-normal text-sm">Pitot Probe</h4>
+            <h4 className="p-3 font-normal text-sm">Tools & Materials</h4>
           </div>
         </div>
         <div className="products grid lg:grid-cols-4 mb-14 grid-cols-2 gap-5 mx-3 ml-9 mt-12">

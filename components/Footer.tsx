@@ -53,13 +53,13 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="">
-          <p className="text-lg font-bold mb-6">Policy</p>
-          <p className="mb-3 text-[#6C6F70]">Terms & Conditions</p>
-          <p className="mb-3 text-[#6C6F70]">Information Policy</p>
-          <p className="mb-3 text-[#6C6F70]">Refund Policy</p>
-          <p className="mb-3 text-[#6C6F70]">Privacy & Policy</p>
-          <p className="mb-3 text-[#6C6F70]">Payment</p>
+        <div className="flex flex-col">
+          <Link href={"/"} className="text-lg font-bold mb-6">Policy</Link>
+          <Link href={"/"} className="mb-3 text-[#6C6F70]">Terms & Conditions</Link>
+          <Link href={"/"} className="mb-3 text-[#6C6F70]">Information Policy</Link>
+          <Link href={"/"} className="mb-3 text-[#6C6F70]">Refund Policy</Link>
+          <Link href={"/"} className="mb-3 text-[#6C6F70]">Privacy & Policy</Link>
+          <Link href={"/"} className="mb-3 text-[#6C6F70]">Payment</Link>
         </div>
 
         <div className="">

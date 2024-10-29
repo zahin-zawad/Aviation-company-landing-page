@@ -13,10 +13,10 @@ export default function productPage() {
     <div className="container mx-auto font-title">
       <Header />
       <div className="w-full flex justify-center">
-        <Image src={coverImage} alt="coverImage" />
+        <Image src={coverImage} alt="coverImage" className="bg-cover w-full" />
       </div>
       <div className="flex">
-        <CategoriesSidebarProductPage />
+        <div className="hidden lg:block"><CategoriesSidebarProductPage /></div>
         <Products />
       </div>
       <FeaturedProducts />

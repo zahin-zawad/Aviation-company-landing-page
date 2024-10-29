@@ -10,7 +10,7 @@ import downChevron from "@/public/images/HeroSectionImages/DownChevron.svg";
 import {
    CloseOutlined,
  } from '@ant-design/icons';
- import { Drawer } from "antd";
+ import { Drawer,Carousel  } from "antd";
  import Link from "next/link";
  
 
@@ -73,9 +73,17 @@ export default function HeroSection() {
             <Image src={bulletedList} alt="bulletedList" />
             <h2>Categories</h2>
          </div>
-        <div className="flex gap-3">
+        <div className="w-full">
+          <Carousel arrows autoplay>
+            <div>
+              <Image src={HeroImage} alt="HeroImage" />
+            </div>
+            
+          </Carousel>
+          
+        {/*           
           <Image src={HeroImage} alt="HeroImage" />
-          <Image src={rightChevron} alt="rightCheveron" />
+          <Image src={rightChevron} alt="rightCheveron" /> */}
         </div>
       </div>
 
