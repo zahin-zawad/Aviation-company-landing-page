@@ -20,7 +20,7 @@ export default function Newsletter() {
           placeholder="Enter your email address"
           className="pl-6 w-96 h-auto rounded-sm py-3 outline-none"
         />
-        <button className="bg-[#0487E2] absolute right-0 p-3 rounded-r-sm text-white">
+        <button className="bg-[#0487E2] absolute right-0 p-3 rounded-r-sm text-white hover:bg-[#169dfd]">
           Subscribe
         </button>
       </div>

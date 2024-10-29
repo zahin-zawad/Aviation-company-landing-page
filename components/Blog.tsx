@@ -11,7 +11,7 @@ export default function Blog() {
         <BlogCard />
       </div>
       <div className="flex justify-center mt-3 mb-5">
-        <button className="font-semibold px-6 py-3 bg-[#0487E2] text-white rounded">
+        <button className="font-semibold px-6 py-3 bg-[#0487E2] text-white rounded hover:bg-[#169dfd]">
           Read More Blogs
         </button>
       </div>

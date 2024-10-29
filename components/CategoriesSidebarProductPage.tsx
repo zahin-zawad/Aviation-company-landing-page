@@ -49,7 +49,7 @@ export default function CategoriesSidebarProductPage() {
         <input type="text" placeholder='min' className='px-3 py-2.5 w-16 border rounded'/>
         <p className='text-sm text-[#BEBEBE]'>to</p>
         <input type="text" placeholder='max' className='px-3 py-2.5 w-16 border rounded'/>
-        <button className='bg-[#0487E2] px-3 py-2.5 rounded text-white'>Go</button>
+        <button className='bg-[#0487E2] px-3 py-2.5 rounded text-white hover:bg-[#169dfd]'>Go</button>
         </div>
 
     </div>

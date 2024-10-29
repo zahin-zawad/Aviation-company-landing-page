@@ -10,7 +10,7 @@ export default function AircraftSupplies() {
     <div>
       <div className="bg-cover h-[232px] relative" style={{backgroundImage: `url(${planecoverimage.src})`}} >
         <h3 className="text-4xl font-semibold text-white absolute mt-16 ml-44">Aircraft Supplies</h3>
-        <button className="text-white p-1.5 pl-3 bg-[#0487E2] rounded flex gap-1.5 items-center absolute ml-44 mt-32">View All <Image src={rightCheveron} alt="rightCheveron"/></button>
+        <button className="text-white p-1.5 pl-3 bg-[#0487E2] rounded flex gap-1.5 items-center absolute ml-44 mt-32 hover:bg-[#169dfd]">View All <Image src={rightCheveron} alt="rightCheveron"/></button>
       </div>
 
       <div className="lg:flex bg-[#f4f5f6]">

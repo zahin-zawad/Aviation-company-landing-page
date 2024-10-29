@@ -1,3 +1,4 @@
+import { Button } from "antd";
 import React from "react";
 
 export default function PartsFinder() {
@@ -45,7 +46,8 @@ export default function PartsFinder() {
           <option value="Model">Model</option>
         </select>
 
-        <button className="bg-[#0487E2] text-white px-6 py-4 rounded w-full lg:w-52">
+
+        <button className="bg-[#0487E2] text-white px-6 py-4 rounded w-full lg:w-52 hover:bg-[#169dfd]">
           Find Parts
         </button>
       </div>

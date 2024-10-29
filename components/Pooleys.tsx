@@ -11,7 +11,7 @@ export default function Pooleys() {
           Pooley's
         </h3>
         <div className="flex">
-          <button className="bg-[#0487E2] text-white p-1.5 pl-3 rounded flex gap-1.5 items-center justify-center">View All <Image src={rightCheveron} alt="rightCheveron"/></button>
+          <button className="bg-[#0487E2] text-white p-1.5 pl-3 rounded flex gap-1.5 items-center justify-center hover:bg-[#169dfd]">View All <Image src={rightCheveron} alt="rightCheveron"/></button>
         </div>
       </div>
       <div className="grid grid-cols-2 lg:flex gap-6 ml-4 mt-9 lg:ml-16">

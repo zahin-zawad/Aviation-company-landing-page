@@ -58,7 +58,7 @@ export default function Header() {
           </ul>
           <div className="w-96 h-12 my-4 border-2 pl-6 rounded-md lg:flex hidden relative items-center">
             <input type="text" placeholder="Search Products" className="focus:border-transparent outline-none" />
-            <button className="bg-[#0487E2] absolute right-0 p-3 rounded-r-md">
+            <button className="bg-[#0487E2] absolute right-0 p-3 rounded-r-md hover:bg-[#169dfd]">
               <Image height={24} width={24} src={search} alt="search" />
             </button>
           </div>
