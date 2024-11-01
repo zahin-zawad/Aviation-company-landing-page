@@ -15,12 +15,14 @@ import { Button } from 'antd';
 import TrustedBySection from '@/components/TrustedBySection'
 import AircraftSupplies from '@/components/AircraftSupplies'
 import PopularProducts from '@/components/PopularProducts'
+import SimpleSlider from '@/components/SimpleSlider'
 
 export default function HomePage() {
   return (
     <div className='container mx-auto font-title'>
       <Header/>
       <HeroSection/>
+      <SimpleSlider/>
       <PartsFinder/>
       <Categories/>
       <AboutUs/>

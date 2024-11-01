@@ -7,16 +7,25 @@ import bulletedList from "@/public/images/HeroSectionImages/Bulleted List.svg";
 import rightChevron from "@/public/images/HeroSectionImages/Right Chevron.svg";
 import downChevron from "@/public/images/HeroSectionImages/DownChevron.svg";
 
+
 import {
    CloseOutlined,
  } from '@ant-design/icons';
  import { Drawer,Carousel  } from "antd";
  import Link from "next/link";
+import SimpleSlider from "./SimpleSlider";
  
 
 export default function HeroSection() {
 
    const [open, setOpen] = useState(false);
+   const settings = {
+		dots: true,
+		infinite: true,
+		slidesToShow: 1,
+		speed: 500,
+		autoplay: true,
+	};
    
   return (
     <div className="mt-6 flex gap-6 mx-16">
@@ -72,19 +81,10 @@ export default function HeroSection() {
          <div onClick={() => setOpen(true)} className="h-12 bg-[#0487E2] flex text-white p-3 rounded mb-2 lg:hidden">
             <Image src={bulletedList} alt="bulletedList" />
             <h2>Categories</h2>
+          <div>
+          </div>  
          </div>
-        <div className="w-full">
-          <Carousel arrows autoplay>
-            <div>
-              <Image src={HeroImage} alt="HeroImage" />
-            </div>
-            
-          </Carousel>
-          
-        {/*           
-          <Image src={HeroImage} alt="HeroImage" />
-          <Image src={rightChevron} alt="rightCheveron" /> */}
-        </div>
+        
       </div>
 
       <Drawer

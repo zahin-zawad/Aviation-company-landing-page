@@ -1,29 +1,71 @@
-import Image from 'next/image'
-import React from 'react'
-import dots from '@/public/images/CatagoriesImages/dots.png'
-import CategoryCard from './CategoryCard'
+"use client";
+
+import Image from "next/image";
+import React from "react";
+import dots from "@/public/images/CatagoriesImages/dots.png";
+import CategoryCard from "./CategoryCard";
 import rightChevron from "@/public/images/HeroSectionImages/Right Chevron.svg";
 
+import Slider from "react-slick";
+
 export default function Categories() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
-        <div className='flex justify-center'>
-            <Image src={dots} alt='dots'/>
-        </div>
-        <div className='flex justify-center'>
-            <h2 className='text-2xl text-primary font-semibold'>Categories</h2>
-        </div>
-        <div className='grid grid-cols-2 lg:flex gap-6 mt-9 lg:mx-16 pb-16'>
-            <CategoryCard/>
-            <CategoryCard/>
-            <CategoryCard/>
-            <CategoryCard/>
-            <CategoryCard/>
-            <CategoryCard/>
-            <CategoryCard/>
-            <Image src={rightChevron} alt='rightChevron'/>
-            
-        </div>
+      <div className="flex justify-center">
+        <Image src={dots} alt="dots" />
+      </div>
+      <div>
+        <h2 className="text-center text-2xl text-primary font-semibold">
+          Categories
+        </h2>
+      </div>
+      <div className="slider-container">
+        <Slider {...settings}>
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+          <CategoryCard />
+        </Slider>
+      </div>
     </div>
-  )
+  );
 }

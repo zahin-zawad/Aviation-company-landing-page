@@ -39,7 +39,7 @@ export default function PartsFinder() {
         <select
           name=""
           id="Model"
-          className="bg-white py-4 px-6 border rounded w-full lg:w-52 mb-3 lg:mb-0"
+          className="bg-white py-4 px-6 border rounded w-full lg:w-52 mb-3"
         >
           <option value="Model">Model</option>
           <option value="Model">Model</option>
@@ -47,7 +47,7 @@ export default function PartsFinder() {
         </select>
 
 
-        <button className="bg-[#0487E2] text-white px-6 py-4 rounded w-full lg:w-52 hover:bg-[#169dfd]">
+        <button className="bg-[#0487E2] text-white px-6 py-4 rounded w-full lg:w-52 hover:bg-[#169dfd] mb-3.5">
           Find Parts
         </button>
       </div>
