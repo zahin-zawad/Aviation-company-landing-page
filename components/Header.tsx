@@ -33,9 +33,10 @@ export default function Header() {
         <div className="right flex gap-10">
           <h2>Contact Us</h2>
           <div className="flex gap-3">
-            <Image src={fb} alt="fb" />
-            <Image src={insta} alt="fb" />
-            <Image src={Twitter} alt="fb" />
+            
+            <Link href={"/"}><Image src={fb} alt="fb" /></Link>
+            <Link href={"/"}><Image src={insta} alt="insta" /></Link>
+            <Link href={"/"}><Image src={Twitter} alt="twitter" /></Link>
           </div>
         </div>
       </div>
@@ -49,12 +50,12 @@ export default function Header() {
         <div className=" flex gap-20 items-center">
           <Link href={'/'}><Image src={logo} alt="logo" className="my-auto" /></Link>
 
-          <ul className="lg:flex gap-6 my-auto hidden">
-              <Link href={'/'}>Home</Link>
-							<Link href={'/shop'}>Shop</Link>
-							<Link href={'/product-page'}>Products</Link>
-							<Link href={'/about-us'}>About Us</Link>
-							<Link href={'/blog'}>Blog</Link>
+          <ul className="lg:flex gap-6 my-auto hidden text-[#263746] ">
+              <Link className="hover:text-black active:font-semibold" href={'/'}>Home</Link>
+							<Link className="hover:text-black active:font-semibold" href={'/shop'}>Shop</Link>
+							<Link className="hover:text-black active:font-semibold" href={'/product-page'}>Products</Link>
+							<Link className="hover:text-black active:font-semibold" href={'/about-us'}>About Us</Link>
+							<Link className="hover:text-black active:font-semibold" href={'/blog'}>Blog</Link>
           </ul>
           <div className="w-96 h-12 my-4 border-2 pl-6 rounded-md lg:flex hidden relative items-center">
             <input type="text" placeholder="Search Products" className="focus:border-transparent outline-none" />
@@ -63,9 +64,9 @@ export default function Header() {
             </button>
           </div>
         </div>
-        <div className="flex gap-6">
-          <Image src={cart} alt="cart" />
-          <Image src={user} alt="user" />
+        <div className="flex gap-6 items-center">
+          <Image className="hover:bg-blue-100 rounded-full duration-300 h-6" src={cart} alt="cart" />
+          <Image className="hover:bg-blue-100 rounded-full duration-300 h-6" src={user} alt="user" />
         </div>
       </div>
 
