@@ -18,10 +18,10 @@ export default function HeroSection() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="mt-6 flex gap-6 mx-16">
-      <div className="left hidden lg:block">
-        <div className="w-80 h-12 bg-[#0487E2] flex text-white p-3 rounded-t-md">
-          <Image src={bulletedList} alt="bulletedList" />
+    <div className="mt-6 grid grid-cols-4 gap-6 mx-16">
+      <div className="left hidden lg:block col-span-1">
+        <div className="h-12 bg-[#0487E2] flex w-full text-white p-3 rounded-t-md">
+          <Image src={bulletedList} alt="bulletedList"  />
           <h2>Categories</h2>
         </div>
         
@@ -35,9 +35,13 @@ export default function HeroSection() {
         <CollapseComponent name= "Emergency systems"/>
         <CollapseComponent name= "Engine instruments"/>
         <CollapseComponent name= "Gliding equipment"/>
+        <li className="flex justify-between py-3 pr-3 pl-6 bg-black-rgba rounded-b-md">
+            <h2>View More</h2>
+            <Image src={downChevron} alt="downChevron" />
+          </li>
         </ul>
       </div>
-      <div className="right">
+      <div className="right col-span-3">
         <div
           onClick={() => setOpen(true)}
           className="h-12 bg-[#0487E2] flex text-white p-3 rounded mb-2 lg:hidden"
@@ -45,7 +49,15 @@ export default function HeroSection() {
           <Image src={bulletedList} alt="bulletedList" />
           <h2>Categories</h2>
         </div>
-        {/* <SimpleSlider/> */}
+        <div className="grid grid-cols-12">
+        <div className="col-span-11">
+          <SimpleSlider/>
+        </div>
+        <div className="flex items-center col-span-1">
+          <Image className="" src={rightChevron} alt="rightCheveron"/>
+        </div>
+        </div>
+
       </div>
 
       <Drawer

@@ -22,7 +22,7 @@ export default function HomePage() {
     <div className='container mx-auto font-title'>
       <Header/>
       <HeroSection/>
-      <SimpleSlider/>
+      {/* <SimpleSlider/> */}
       <PartsFinder/>
       <Categories/>
       <AboutUs/>
