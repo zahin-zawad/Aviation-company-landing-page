@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,9 +7,8 @@ import Slider from "react-slick";
 import Image from "next/image";
 import HeroImage from "@/public/images/HeroSectionImages/HeroImage.png";
 
-
 export default function SimpleSlider() {
-  var settings = {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -18,9 +17,9 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings}>
-      <Image src={HeroImage} alt=""/>
-      <Image src={HeroImage} alt=""/>
-      <Image src={HeroImage} alt=""/>
+      <Image src={HeroImage} alt="" />
+      <Image src={HeroImage} alt="" />
+      <Image src={HeroImage} alt="" />
     </Slider>
   );
 }

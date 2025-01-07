@@ -5,7 +5,6 @@ import Icom from '@/components/Icom'
 import PartsFinder from '@/components/PartsFinder'
 import Pooleys from '@/components/Pooleys'
 import ShopCover from '@/components/ShopCover'
-import TrustedBySection from '@/components/TrustedBySection'
 import React from 'react'
 
 export default function shop() {

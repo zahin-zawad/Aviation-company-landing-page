@@ -8,7 +8,7 @@ import CategoryCard from "./CategoryCard";
 import Slider from "react-slick";
 
 export default function Categories() {
-  var settings = {
+  let settings = {
     dots: true,
     infinite: false,
     speed: 500,
