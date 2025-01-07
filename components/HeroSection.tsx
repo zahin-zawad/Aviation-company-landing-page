@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import HeroImage from "@/public/images/HeroSectionImages/HeroImage.png";
 import bulletedList from "@/public/images/HeroSectionImages/Bulleted List.svg";
 import rightChevron from "@/public/images/HeroSectionImages/Right Chevron.svg";
 import downChevron from "@/public/images/HeroSectionImages/DownChevron.svg";

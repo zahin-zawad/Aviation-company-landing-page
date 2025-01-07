@@ -10,7 +10,6 @@ import aviationGifts from '@/public/images/ProductPageImages/CategoriesSidebarPr
 import cameras from '@/public/images/ProductPageImages/CategoriesSidebarProductPageImages/Cameras.png'
 import emergencySystems from '@/public/images/ProductPageImages/CategoriesSidebarProductPageImages/Emergency Systems.png'
 import engineInstruments from '@/public/images/ProductPageImages/CategoriesSidebarProductPageImages/Engine Instruments.png'
-import { AlignRightOutlined } from '@ant-design/icons'
 
 
 

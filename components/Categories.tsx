@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import dots from "@/public/images/CatagoriesImages/dots.png";
 import CategoryCard from "./CategoryCard";
-import rightChevron from "@/public/images/HeroSectionImages/Right Chevron.svg";
 
 import Slider from "react-slick";
 

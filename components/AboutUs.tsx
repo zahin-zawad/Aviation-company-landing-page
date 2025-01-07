@@ -3,8 +3,6 @@ import React from 'react'
 import plane from '@/public/images/AboutUsImages/1.png'
 import logo from '@/public/images/AboutUsImages/2.png'
 import propeller from '@/public/images/AboutUsImages/3.png'
-import anyrgb7 from '@/public/images/AboutUsImages/anyrgb 7.png'
-import anyrgb8 from '@/public/images/AboutUsImages/anyrgb 8.png'
 
 export default function AboutUs() {
   return (
