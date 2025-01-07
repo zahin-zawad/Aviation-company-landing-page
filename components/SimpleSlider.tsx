@@ -8,7 +8,7 @@ import Image from "next/image";
 import HeroImage from "@/public/images/HeroSectionImages/HeroImage.png";
 
 export default function SimpleSlider() {
-  let settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
